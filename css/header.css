@@ -10,11 +10,14 @@ header {
   width: 68px;
   height: 64px;
 }
+.navigation-menu {
+  margin-top: 24px;
+}
+
+input[id="menu"]:checked ~ nav{
+  display: block;
+}
 
 nav {
   display: none;
-}
-
-.navigation-menu {
-  margin-top: 24px;
 }
