@@ -15,31 +15,58 @@ header {
   margin-top: 24px;
 }
 
-input[id="menu"]:checked ~ nav{
+input[id="menu"]:checked ~ nav {
   display: block;
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
   background-color: var(--background-tertiary-color);
-
 }
-.links-list{
+.links-list {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
 }
 
-.links-list li{
+.links-list li {
   margin: 16px 0 16px 40px;
 }
 
 .links-list li a {
   text-decoration: none;
+  font-size: 24px;
   color: var(--text-secondary-color);
+  font-weight: var(--menu-text-font-weight);
 }
 
 nav {
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    padding: 32px 48px;
+  }
+
+  .navigation-menu {
+    margin-top: 4px;
+    width: 467px;
+  }
+  .navigation-menu label,
+  input {
+    display: none;
+  }
+  .navigation-menu nav {
+    display: block;
+  }
+  .links-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 12px;
+  }
+  .links-list li {
+    margin-left: 0;
+  }
 }
