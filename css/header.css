@@ -6,7 +6,12 @@ header {
   justify-content: space-between;
   position: relative;
 }
-.logoHome {
+
+.img-desktop {
+  display: none;
+}
+
+.logo-home {
   display: inline-block;
   width: 68px;
   height: 64px;
@@ -68,5 +73,22 @@ nav {
   }
   .links-list li {
     margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  header {
+    padding: 38px 160px;
+  }
+
+  .img-mobile {
+    display: none;
+  }
+  .img-desktop {
+    display: inline;
+  }
+  .links-list li a:hover {
+    color: var(--primary-color);
+    font-weight: var(--title-font-weight);
   }
 }
