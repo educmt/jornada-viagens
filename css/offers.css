@@ -1,0 +1,39 @@
+.card {
+  width: 312px;
+  height: 288px;
+  background-image: url(../assets/img/japao-mobile-card.jpg);
+  background-size: cover;
+  margin: 0 auto;
+  border-radius: 16px;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.card header {
+  display: block;
+  background-color: transparent;
+  position: static;
+  padding: 0;
+  text-align: center;
+}
+
+.card p,
+h3,
+a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
+}
+
+.card p {
+  font-size: 20px;
+  font-weight: var(--text-font-weight);
+}
+
+.card h3 {
+  font-size: 40px;
+  margin: 8px 0 24px 0;
+}
+.card span p {
+  font-size: 32px;
+  font-weight: var(--title-font-weight);
+}
