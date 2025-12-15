@@ -1,0 +1,101 @@
+.offers-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.card {
+  width: 312px;
+  height: 288px;
+  border-radius: 16px;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.card header {
+  display: block;
+  background-color: transparent;
+  position: static;
+  padding: 0;
+  text-align: center;
+}
+
+.card p,
+h3,
+a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
+}
+
+.card p {
+  font-size: 20px;
+  font-weight: var(--text-font-weight);
+}
+
+.card h3 {
+  font-size: 40px;
+  margin: 8px 0 24px 0;
+}
+.card span p {
+  font-size: 32px;
+  font-weight: var(--title-font-weight);
+}
+
+.card.japao {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/img/bg-japao-card.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card.san-andreas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/img/bg-san-andreas-card.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card.paraiba {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/img/bg-paraiba-card.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card.manaus {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/img/bg-manaus-card.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .offers-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 420px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+  .card h3 {
+    font-size: 50px;
+  }
+  .card span p {
+    font-size: 42px;
+  }
+}
+/*Para dispostivos com 1920p de tela*/
+@media screen and (min-width: 1812px) {
+    .offers-cards {
+      width: 1250px;
+      margin: 0 auto
+    }
+  }
