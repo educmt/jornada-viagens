@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  margin-bottom: 88px;
 }
 .card {
   width: 312px;
@@ -81,6 +82,9 @@ a {
 }
 
 @media screen and (min-width: 1440px) {
+  .offers-cards {
+    margin: 0 auto 104px;
+  }
   .card {
     width: 588px;
     height: 308px;
@@ -94,8 +98,8 @@ a {
 }
 /*Para dispostivos com 1920p de tela*/
 @media screen and (min-width: 1812px) {
-    .offers-cards {
-      width: 1250px;
-      margin: 0 auto
-    }
+  .offers-cards {
+    width: 1250px;
+    margin: 0 auto 120px;
   }
+}

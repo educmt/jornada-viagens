@@ -32,7 +32,7 @@
 }
 
 .section-title h2 {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: var(--title-font-weight);
   text-align: center;
 }
@@ -61,13 +61,16 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section-title hr {
+    margin-bottom: 66px;
+  }
   .section-title h2 {
     font-size: 32px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .button:hover{
+  .button:hover {
     background-color: var(--primary-color);
   }
 }
