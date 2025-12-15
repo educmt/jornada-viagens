@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  margin-bottom: 88px;
 }
 .card {
   width: 312px;
@@ -96,6 +97,6 @@ a {
 @media screen and (min-width: 1812px) {
     .offers-cards {
       width: 1250px;
-      margin: 0 auto
+      margin: 0 auto 88px
     }
   }
