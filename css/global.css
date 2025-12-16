@@ -31,6 +31,19 @@
   color: var(--text-primary-color);
 }
 
+section {
+  width: 100%;
+  margin: 0 auto 88px;
+}
+
+section.hero {
+  width: 100%;
+  margin: 0;
+}
+.section-title {
+  width: 280px;
+  margin: 0 auto;
+}
 .section-title h2 {
   font-size: 32px;
   font-weight: var(--title-font-weight);
@@ -52,6 +65,8 @@
   width: 280px;
   height: 64px;
   background-color: var(--secondary-color);
+  color: var(--text-secondary-color);
+  text-decoration: none;
   text-align: center;
   font-size: 20px;
   font-weight: var(--title-font-weight);
@@ -61,6 +76,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section-title {
+    width: 100%;
+  }
   .section-title hr {
     margin-bottom: 66px;
   }
@@ -70,6 +88,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  section {
+    margin: 0 auto 104px;
+  }
+
   .button:hover {
     background-color: var(--primary-color);
   }
