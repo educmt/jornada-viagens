@@ -1,0 +1,18 @@
+.luggage {
+  width: 144px;
+  height: 254px;
+  background-image: url(../assets/img/luggage.jpg);
+  background-image: cover;
+}
+.passport {
+  width: 144px;
+  height: 254px;
+  background-image: url(../assets/img/passport.jpg);
+  background-image: cover;
+}
+.people {
+  width: 312px;
+  height: 182px;
+  background-image: url(../assets/img/people.jpg);
+  background-image: cover;
+}
