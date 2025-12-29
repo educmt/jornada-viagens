@@ -59,4 +59,9 @@
     justify-content: center;
     gap: 24px;
   }
+  .destination-img {
+    width: 588px;
+    height: 452px;
+    background-size: cover;
+  }
 }

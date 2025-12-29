@@ -1,18 +1,66 @@
+.payments {
+  max-width: 312px;
+}
 .luggage {
-  width: 144px;
-  height: 254px;
   background-image: url(../assets/img/luggage.jpg);
   background-image: cover;
+  grid-area: luggage;
 }
 .passport {
-  width: 144px;
-  height: 254px;
   background-image: url(../assets/img/passport.jpg);
   background-image: cover;
+  grid-area: passport;
 }
 .people {
-  width: 312px;
-  height: 182px;
   background-image: url(../assets/img/people.jpg);
   background-image: cover;
+  grid-area: people;
+}
+.image-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 182px;
+  grid-template-areas:
+    "luggage passport"
+    "people people";
+  height: 460px;
+  gap: 24px;
+}
+
+.image-content .people.colspan2{
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments {
+    max-width: 648px;
+  }
+  .luggage {
+    background-image: url(../assets/img/luggage-tablet.jpg);
+  }
+  .passport {
+    background-image: url(../assets/img/passport-tablet.jpg);
+  }
+  .people {
+    background-image: url(../assets/img/people-tablet.jpg);
+  }
+}
+@media screen and (min-width: 1440px) {
+  .payments {
+    max-width: 1200px;
+  }
+  .contents-container {
+    display: grid;
+    grid-template-columns: 384px 790px;
+    gap: 24px;
+  }
+  .luggage {
+    background-image: url(../assets/img/luggage-desktop.jpg);
+  }
+  .passport {
+    background-image: url(../assets/img/passport-desktop.jpg);
+  }
+  .people {
+    background-image: url(../assets/img/people-desktop.jpg);
+  }
 }
