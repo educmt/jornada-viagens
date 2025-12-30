@@ -27,7 +27,6 @@
 
 @media screen and (min-width: 1440px) {
   .img-hero {
-    height: 620px;
     background: url(../assets/img/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
