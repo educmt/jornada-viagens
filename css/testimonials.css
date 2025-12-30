@@ -6,7 +6,7 @@
   grid-template-columns: 1fr;
   gap: 32px;
 }
-.testimonials-container header p {
+.testimonials-container article header p {
   font-size: 16px;
   line-height: 28px;
   color: var(--text-primary-color);
@@ -51,7 +51,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 32px;
   }
-  .testimonials-container article{
+  .testimonials-container article {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
