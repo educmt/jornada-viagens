@@ -31,6 +31,29 @@
   grid-column: span 2;
 }
 
+/* Estilos para página pacotes de viagens */
+.content-title.payment span{
+  font-size: 40px;
+}
+.content-title.payment p{
+  margin-top: 24px;
+}
+.japanese-house {
+  background-image: url(../assets/img/japanese-house.jpg);
+  background-image: cover;
+  grid-area: luggage;
+}
+.led-city {
+  background-image: url(../assets/img/led-city.jpg);
+  background-image: cover;
+  grid-area: passport;
+}
+.umbrella {
+  background-image: url(../assets/img/umbrella.jpg);
+  background-image: cover;
+  grid-area: people;
+}
+
 @media screen and (min-width: 768px) {
   .payments {
     max-width: 648px;
@@ -43,6 +66,16 @@
   }
   .people {
     background-image: url(../assets/img/people-tablet.jpg);
+  }
+  /* Estilos para página pacotes de viagens */
+  .japanese-house {
+    background-image: url(../assets/img/japanese-house-tablet.jpg);
+  }
+  .led-city {
+    background-image: url(../assets/img/led-city-tablet.jpg);
+  }
+  .umbrella {
+    background-image: url(../assets/img/umbrella-tablet.jpg);
   }
 }
 @media screen and (min-width: 1440px) {
@@ -62,5 +95,18 @@
   }
   .people {
     background-image: url(../assets/img/people-desktop.jpg);
+  }
+  /* Estilos para a pagina pacotes de viagens */
+  .japanese-house {
+    background-image: url(../assets/img/japanese-house-desktop.jpg);
+  }
+  .led-city {
+    background-image: url(../assets/img/led-city-desktop.jpg);
+  }
+  .umbrella {
+    background-image: url(../assets/img/umbrella-desktop.jpg);
+  }
+  .contents-container.travel-packages{
+    align-items: center;
   }
 }
