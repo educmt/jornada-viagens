@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="index.html" title="Página inicial" class="logoHome">
+        <img
+          src="assets/img/bussula-texto-jornada-branca.png"
+          alt="Logo bússula do jornada viagens na cor branca, com texto escrito Jornada ao lado."
+          class="img-desktop"
+        />
+        <img
+          src="assets/img/bussula-branca.png"
+          alt="Logo bússula do jornada viagens na cor branca"
+          class="img-mobile"
+        />
+      </a>
+      <div class="navigation-menu">
+        <label for="menu">
+          <img src="assets/img/menu.png" alt="menu" />
+        </label>
+        <input type="checkbox" id="menu" hidden />
+        <nav>
+          <ul class="links-list">
+            <li>
+              <a href="blog.html" title="Acessar Blog" target="_blank">Blog</a>
+            </li>
+            <li>
+              <a
+                href="pacotes-viagens.html"
+                title="Acessar Pacotes de Viagem"
+                target="_blank"
+              >
+                Pacotes de Viagem
+              </a>
+            </li>
+            <li>
+              <a
+                class="active-underline"
+                href="contato.html"
+                title="Acessar Contato"
+                target="_blank"
+              >
+                Contato
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="contact img-hero">
+          <div class="section-title hero-content">
+            <h1>Entre em contato!</h1>
+            <hr />
+            <p>
+              Dúvidas, sugestões, problemas para resolver? Temos uma equipe de
+              plantão para ajudar você!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="form">
+        <div class="section-title">
+          <h2>Preencha o formulário</h2>
+          <hr />
+        </div>
+        <p class="form-subtitle">
+          Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+          problemas, trazer dicas e orientações objetivas para tornar sua
+          experiência o mais prazerosa e tranquila possível. Preencha seus dados
+          que vamos retornar seu contato conforme a urgência do seu chamado.
+          Pode confiar!
+        </p>
+        <form action="#" method="get">
+          <label for="name"></label>
+          <input
+            class="input-form"
+            id="name"
+            type="text"
+            name="userName"
+            required
+            placeholder="Seu nome"
+          />
+          <label for="phoneNumber"></label>
+          <input
+            class="input-form telephone"
+            id="phoneNumber"
+            type="tel"
+            name="userPhoneNumber"
+            pattern="[0-9]{11}"
+            placeholder="Telefone"
+            aria-describedby="phoneHelp"
+          />
+
+          <label for="email"></label>
+          <input
+            class="input-form email"
+            id="email"
+            type="email"
+            name="userEmail"
+            required
+            placeholder="Email"
+          />
+
+          <input
+            class="input-form"
+            id="subject"
+            type="text"
+            name="subject"
+            placeholder="Assunto"
+            required
+          />
+
+          <textarea
+            name="userSubject"
+            id="userSubject"
+            cols="43"
+            rows="10"
+            required
+          >
+          </textarea>
+
+          <button
+            class="form button"
+            type="submit"
+            aria-label="Enviar dados do formulário"
+          >
+            Enviar
+          </button>
+        </form>
+      </section>
+      <section class="pre-footer contact">
+        <div class="img-pre-footer"></div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="main-content-container">
+        <a href="index.html" title="Ir para página inicial">
+          <img
+            class="img-logo"
+            src="assets/img/Logo-branco-footer.png"
+            alt="Logo bússula do jornada viagens na cor branca, com texto escrito Jornada ao lado."
+          />
+        </a>
+        <div class="text-container">
+          <p>Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
+          <p>
+            Desenvolvido por Alura e o aluno Eduardo Mota. Projeto fictício sem
+            fins comerciais.
+          </p>
+        </div>
+      </div>
+      <div class="social-media-container">
+        <p>Acesse nossas redes:</p>
+        <ul class="social-media-links">
+          <li>
+            <a href="#" target="_blank" title="Whatsapp">
+              <img src="assets/img/Whatsapp.png" alt="Logo do Whatsapp" />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" title="Instagram">
+              <img src="assets/img/Instragam.png" alt="Logo do Instagram" />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" title="Twitter">
+              <img src="assets/img/Twiter.png" alt="Logo do Twitter" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
