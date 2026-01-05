@@ -50,6 +50,11 @@ nav {
   display: none;
 }
 
+/* Estilos para a página Pacotes de Viagens */
+nav .links-list a.active-underline {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
   .main-header {
     padding: 32px 48px;
