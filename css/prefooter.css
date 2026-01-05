@@ -7,10 +7,25 @@
   background: url(../assets/img/pre-footer.jpg) no-repeat;
   background-size: cover;
 }
+/* Estilos para a página pacotes de viagens */
+.travel-packages .img-pre-footer {
+  width: 100%;
+  height: 400px;
+  background: url(../assets/img/pacotes-viagens-pre-footer.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 @media screen and (min-width: 768px) {
   .img-pre-footer {
     background: url(../assets/img/pre-footer-tablet.jpg) no-repeat;
     background-size: cover;
+  }
+  /* Estilos para a página pacotes de viagens */
+  .travel-packages .img-pre-footer {
+    background: url(../assets/img/pacotes-viagens-pre-footer-tablet.jpg)
+      no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -18,5 +33,13 @@
     height: 600px;
     background: url(../assets/img/pre-footer-desktop.jpg) no-repeat;
     background-size: cover;
+  }
+  /* Estilos para a página pacotes de viagens */
+  .travel-packages .img-pre-footer {
+    height: 600px;
+    background: url(../assets/img/pacotes-viagens-pre-footer-desktop.jpg)
+      no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
