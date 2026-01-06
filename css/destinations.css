@@ -1,6 +1,9 @@
-.articles {
+.destinations {
   width: 100%;
   max-width: 312px;
+}
+.articles {
+  width: 100%;
   margin: 0 auto;
   text-align: left;
 }
@@ -9,7 +12,7 @@
 }
 
 .destination-img {
-  width: 312px;
+  width: 100%;
   height: 360px;
   background-size: cover;
   margin-bottom: 24px;
@@ -19,22 +22,31 @@
   background-image: url(../assets/img/tokyo-mobile.jpg);
 }
 
-.osaka {
+.osaka, .osaka-blog {
   background-image: url(../assets/img/osaka-mobile.jpg);
+  background-position: center;
 }
 
 .destination-article .button {
   margin: 0;
   width: 100%;
 }
+/* Estilos para a página Blog */
+.hiroshima {
+  background-image: url(../assets/img/hiroshima.jpg);
+  background-position: center;
+}
+
+.kyoto {
+  background-image: url(../assets/img/kyoto.jpg);
+  background-position: center;
+}
 
 @media screen and (min-width: 768px) {
-  .articles {
-    width: 100%;
+  .destinations {
     max-width: 648px;
   }
   .destination-img {
-    width: 648px;
     height: 452px;
     background-size: cover;
   }
@@ -47,21 +59,34 @@
   .destination-article .button {
     width: 280px;
   }
+  /* Estilos para a página Blog */
+  .destination-img.osaka-blog,
+  .destination-img.hiroshima,
+  .destination-img.kyoto  {
+    height: 300px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-  .articles {
-    width: 100%;
+  .destinations {
     max-width: 1200px;
-    margin: 0 auto;
+  }
+  .articles {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 24px;
   }
   .destination-img {
-    width: 588px;
+    max-width: 588px;
     height: 452px;
     background-size: cover;
+  }
+  /* Estilos para página Blog */
+  .destination-img.osaka-blog,
+  .destination-img.hiroshima,
+  .destination-img.kyoto {
+    width: 388px;
+    height: 300px;
   }
 }
