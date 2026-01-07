@@ -4,6 +4,7 @@ O **Jornada Viagens** foi desenvolvido com **HTML e CSS puro**, focado em boas p
 
 O projeto simula um site de turismo, apresentando conteúdos informativos, pacotes de viagens e um canal de contato com o usuário.
 
+Link para acessar o site: https://educmt.github.io/jornada-viagens/
 ---
 
 ## 📄 Páginas do Site
